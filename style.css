@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+h1 {
+
+
+
+
+        
+color: blueviolet;
+text-shadow: 3px 0px 0px cornflowerblue, 6px 0px 0px lightblue;
+}
+.riba_fugu {
+
+color: rgb(92, 92, 92);
+
+
+transform-origin: center;
+width: 300px;
+}
+.riba_fugu:hover {
+
+transform: rotate(360deg);
+
+transition: all 0.8s ease-in-out;
+
+
+
+
+}
+
+.name {
+    transition: all 0.1s linear;
+width: 250px;
+}
+.name:hover {
+    color: black;
+    transition: all 0.1s linear;
+    text-shadow: 0px 3px 3px red , 3px 3px 3px orange , 3px 0px 3px yellow , 3px -3px 3px green , 0px -3px 3px lightblue , -3px -3px 3px blue , -3px 0px 3px purple;
+}
